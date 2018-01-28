@@ -1,10 +1,10 @@
 name: TeamPlugin
-main: com.mrlittleboy345.teamplugin.MainClass
+main: com.mrcoderboy345.teamplugin.MainClass
 version: "1.0"
 api: ["1.0.0"]
 
 load: STARTUP
-author: MrLittleBoy345
+author: MrCoderBoy345
 description: Teams plugin for Nukkit
 website:
 
