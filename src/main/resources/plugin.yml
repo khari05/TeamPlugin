@@ -1,0 +1,31 @@
+name: TeamPlugin
+main: com.mrlittleboy345.teamplugin.MainClass
+version: "1.0"
+api: ["1.0.0"]
+
+load: STARTUP
+author: MrLittleBoy345
+description: Teams plugin for Nukkit
+website:
+
+commands:
+  team:
+    description: Sets teams
+    aliases: ["team"]
+    usage: /team <red/blue> [player]
+  textcolor:
+    description: Sets text color for player
+    aliases: ["textcolor"]
+    usage: /textcolor <color>
+  nickname:
+    description: Changes your name
+    aliases: ["nickname"]
+    usage: /nickname <nickname>
+  rank:
+    description: shows your rank
+    aliases: ["rank"]
+    usage: /rank <rank>
+  deathcount:
+    description: counts deaths
+    aliases: ["deathcount"]
+    usage: /deathcount <on/off/reset> [player]
