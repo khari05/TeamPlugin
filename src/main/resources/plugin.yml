@@ -6,7 +6,7 @@ api: ["1.0.0"]
 load: STARTUP
 author: MrCoderBoy345
 description: Teams plugin for Nukkit
-website:
+website: https://github.com/MrCoderBoy345/TeamPlugin
 
 commands:
   team:
