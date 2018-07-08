@@ -145,7 +145,9 @@ public class MainClass extends PluginBase implements Listener{
             if(ev instanceof EntityDamageByEntityEvent){
                 Player damager = (Player)((EntityDamageByEntityEvent) ev).getDamager();
                 if (player.namedTag.getString("team") == damager.namedTag.getString("team")) {
+                    if (player.namedTag.getString("team")!=""){
                     ev.setCancelled();
+                    }
                 }
             }
             
