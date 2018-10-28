@@ -19,7 +19,7 @@ commands:
     usage: /textcolor <color>
   nickname:
     description: Changes your name
-    aliases: ["nickname"]
+    aliases: ["nick"]
     usage: /nickname <nickname>
   rank:
     description: shows your rank
